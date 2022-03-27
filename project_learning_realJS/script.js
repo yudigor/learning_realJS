@@ -1,10 +1,7 @@
-// Operadores de Igualdade
+// Operador Ternário
 
-// // Igualdade restrita (mais recomendada)
-// console.log(1 === 1); true
-// console.log('1' === 1); false
+// Voce tem clientes, caso ele tenha mais de 100 pontos, será premium, caso contrário será do tipo comum:
 
-
-// Igualdade solta
-console.log (1 == 1); true
-console.log ('1' == 1); true
+let pontos = 99;
+let tipo = pontos >= 100 ? 'premium' : 'comum';
+console.log(tipo);
