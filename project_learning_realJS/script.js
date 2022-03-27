@@ -1,17 +1,26 @@
-// Comparações não booleanas existem dois tipos:
+// IF...ELSE
 
-// Falsy que são:
+// Se as horas estiverem entre 06h até 12h = Bom dia!
+// se estiver entre 12h e 18h = Boa tarde!
+// caso contrário = Boa noite!
 
-// undefined
-// null0
-// false
-// ''
-// NaN
+let horas = 14;
 
-// Truthy são todos os outros resultados
+if(horas >= 6 && horas < 12){
 
-let corPersonalizada = '';
-let corPadrao = 'Azul';
-let corPerfil = corPersonalizada || corPadrao;
+    console.log( "BOM DIAAAA!" )
+;
+}
+else if(horas >= 12 && horas < 18){
 
-console.log(corPerfil);
+    console.log("BOA TARDEEEE!")
+
+}
+else {
+    
+    console.log("BOA NOITEEEE!");
+
+};
+    
+
+
