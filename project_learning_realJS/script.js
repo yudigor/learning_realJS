@@ -1,7 +1,33 @@
-// Operador Ternário
+// // Operador Lógico e (&&)
+// //Retorna TRUE somente se os dois operandos forem TRUE
 
-// Voce tem clientes, caso ele tenha mais de 100 pontos, será premium, caso contrário será do tipo comum:
+// console.log(false && true);
 
-let pontos = 99;
-let tipo = pontos >= 100 ? 'premium' : 'comum';
-console.log(tipo);
+// let maiorDeIdade = true;
+// let possuiCarteiraDeMotorista = false;
+// let podeAplicar = maiorDeIdade && possuiCarteiraDeMotorista;
+
+// console.log(podeAplicar);
+
+
+// // Operador Lógico ou (||)
+//Retorna TRUE se um dos operandos já forem TRUE
+
+// let maiorDeIdade = true;
+// let possuiCarteiraDeMotorista = false;
+// let podeAplicar = maiorDeIdade || possuiCarteiraDeMotorista;
+
+// console.log(podeAplicar);
+
+// // Operador NOT (!)
+
+let maiorDeIdade = true;
+let possuiCarteiraDeMotorista = false;
+let podeAplicar = maiorDeIdade && possuiCarteiraDeMotorista;
+
+console.log("Candidato Aprovado: ", podeAplicar);
+
+let candidatoRecusado = !podeAplicar;
+
+console.log("Candidato Recusado: ", candidatoRecusado);
+
