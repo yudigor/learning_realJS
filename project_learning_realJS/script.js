@@ -1,12 +1,10 @@
-// Operadores de Atribuição
+// Operadores de Igualdade
 
-let valorTecladoGamer = 500;
+// // Igualdade restrita (mais recomendada)
+// console.log(1 === 1); true
+// console.log('1' === 1); false
 
-// valorTecladoGamer = valorTecladoGamer + valorTecladoGamer;
-valorTecladoGamer += valorTecladoGamer;
 
-console.log(valorTecladoGamer);
-
-// valorTecladoGamer = valorTecladoGamer - valorTecladoGamer;
-valorTecladoGamer -= valorTecladoGamer;
-console.log(valorTecladoGamer);
+// Igualdade solta
+console.log (1 == 1); true
+console.log ('1' == 1); true
