@@ -1,33 +1,17 @@
-// // Operador Lógico e (&&)
-// //Retorna TRUE somente se os dois operandos forem TRUE
+// Comparações não booleanas existem dois tipos:
 
-// console.log(false && true);
+// Falsy que são:
 
-// let maiorDeIdade = true;
-// let possuiCarteiraDeMotorista = false;
-// let podeAplicar = maiorDeIdade && possuiCarteiraDeMotorista;
+// undefined
+// null0
+// false
+// ''
+// NaN
 
-// console.log(podeAplicar);
+// Truthy são todos os outros resultados
 
+let corPersonalizada = '';
+let corPadrao = 'Azul';
+let corPerfil = corPersonalizada || corPadrao;
 
-// // Operador Lógico ou (||)
-//Retorna TRUE se um dos operandos já forem TRUE
-
-// let maiorDeIdade = true;
-// let possuiCarteiraDeMotorista = false;
-// let podeAplicar = maiorDeIdade || possuiCarteiraDeMotorista;
-
-// console.log(podeAplicar);
-
-// // Operador NOT (!)
-
-let maiorDeIdade = true;
-let possuiCarteiraDeMotorista = false;
-let podeAplicar = maiorDeIdade && possuiCarteiraDeMotorista;
-
-console.log("Candidato Aprovado: ", podeAplicar);
-
-let candidatoRecusado = !podeAplicar;
-
-console.log("Candidato Recusado: ", candidatoRecusado);
-
+console.log(corPerfil);
