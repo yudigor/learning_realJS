@@ -1,19 +1,18 @@
-// Dois tipos de funções podem ser feitas
+// // Operadores Aritméticos
+// // +, -, *, /, **
 
-//As que realizam uma tarefam e não devolvem nada:
+// let salario = 100
 
-function dizerNome(){
-    console.log('Yudelas');
-};
+// console.log(salario + salario);
+// console.log(salario - salario);
+// console.log(salario * salario);
+// console.log(salario / salario);
+// console.log(2 ** 7);
 
-dizerNome(); 
+// Operadores de incromento e decremento: ++ --
 
-//E as que recebem uma informação, fazem um calculo ou operação e retornam algo:
+let idade = 18;
 
-function multiplicarPorDois(valor){
-    return valor* 2;
-};
+console.log(++idade);
 
-let resultado = multiplicarPorDois(5);
-
-console.log(resultado);
+console.log(--idade);
