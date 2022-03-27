@@ -1,12 +1,7 @@
-let nome = "Rafael";
-let idade = 25;
-let estaAprovado = true;
+// Arrays são conjuntos de dados que podem ser acessados por um indice
 
-let pessoa = {
-    nome: 'Rafael',
-    idade: 25,
-    estaAprovado: true,
-    sobrenome: 'Da Silva'
-};
+let familia = [true, 43, 'Yudelas', 30];
 
-console.log(pessoa);
+console.log(familia.length);
+console.log(familia);
+console.log(familia[2]);
