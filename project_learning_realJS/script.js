@@ -1,18 +1,12 @@
-// // Operadores Aritméticos
-// // +, -, *, /, **
+// Operadores de Atribuição
 
-// let salario = 100
+let valorTecladoGamer = 500;
 
-// console.log(salario + salario);
-// console.log(salario - salario);
-// console.log(salario * salario);
-// console.log(salario / salario);
-// console.log(2 ** 7);
+// valorTecladoGamer = valorTecladoGamer + valorTecladoGamer;
+valorTecladoGamer += valorTecladoGamer;
 
-// Operadores de incromento e decremento: ++ --
+console.log(valorTecladoGamer);
 
-let idade = 18;
-
-console.log(++idade);
-
-console.log(--idade);
+// valorTecladoGamer = valorTecladoGamer - valorTecladoGamer;
+valorTecladoGamer -= valorTecladoGamer;
+console.log(valorTecladoGamer);
