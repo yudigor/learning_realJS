@@ -1,13 +1,19 @@
-// Para nomear uma função: verbo + substantivo
+// Dois tipos de funções podem ser feitas
 
-let corSite = "azul";
+//As que realizam uma tarefam e não devolvem nada:
 
-function resetaCor(cor, tonalidade){
-    corSite = cor + ' ' + tonalidade;
+function dizerNome(){
+    console.log('Yudelas');
 };
 
-console.log(corSite);
+dizerNome(); 
 
-resetaCor("roxo", "escuro");
+//E as que recebem uma informação, fazem um calculo ou operação e retornam algo:
 
-console.log(corSite);
+function multiplicarPorDois(valor){
+    return valor* 2;
+};
+
+let resultado = multiplicarPorDois(5);
+
+console.log(resultado);
