@@ -6,13 +6,12 @@
 // 4 - For..In
 // 5 - For..Of
 
-// 2 - While
-let i = 5;
+// 3 - Do..While
 
-while( i >= 1 ){
-    if( i % 2 !== 0){
-        console.log(i);
-    }
-    i--;
+let i = 0;
+
+do{
+    console.log('digitando!', i);
+    i++;
     
-}
+} while ( i < 10)
