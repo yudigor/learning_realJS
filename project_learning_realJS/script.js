@@ -1,26 +1,23 @@
-// IF...ELSE
+// Switch Case
+// Digamos que queiramos definir permissões para cargos diferentes 
 
-// Se as horas estiverem entre 06h até 12h = Bom dia!
-// se estiver entre 12h e 18h = Boa tarde!
-// caso contrário = Boa noite!
+let permissao = 'diretor';
 
-let horas = 14;
+switch (permissao){
+    case ('comum'):
+    console.log("Usuário Comum");
+    break;
 
-if(horas >= 6 && horas < 12){
+    case ('gerente'):
+    console.log("Gerente");
+    break;
 
-    console.log( "BOM DIAAAA!" )
-;
-}
-else if(horas >= 12 && horas < 18){
+    case ('diretor'):
+    console.log("Diretor");
+    break;
 
-    console.log("BOA TARDEEEE!")
-
-}
-else {
-    
-    console.log("BOA NOITEEEE!");
+default:
+    console.log('Usuário não reconhecido!')
 
 };
-    
-
 
