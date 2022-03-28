@@ -6,19 +6,11 @@
 // 4 - For..In
 // 5 - For..Of
 
-// 4 - For..In
-
-const pessoa = {
-    nome: 'Yudelas',
-    idade: 20
-};
-
-for(let chave in pessoa){
-    console.log(chave, pessoa.nome, pessoa.idade);
-};
+// 5 - For..Of
 
 const cores = ['Vermelho', 'Azul', 'Verde'];
 
-for (let indice in cores ){
-    console.log(indice, cores[indice])
-};
+for(let cor of cores){
+    console.log(cor);
+}
+
