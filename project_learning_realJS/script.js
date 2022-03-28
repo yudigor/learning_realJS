@@ -1,23 +1,14 @@
-// Switch Case
-// Digamos que queiramos definir permissões para cargos diferentes 
+// Nós temos 5 tipos de laços de repetição:
 
-let permissao = 'diretor';
+// 1 - For 
+// 2 - While
+// 3 - Do..While
+// 4 - For..In
+// 5 - For..Of
 
-switch (permissao){
-    case ('comum'):
-    console.log("Usuário Comum");
-    break;
-
-    case ('gerente'):
-    console.log("Gerente");
-    break;
-
-    case ('diretor'):
-    console.log("Diretor");
-    break;
-
-default:
-    console.log('Usuário não reconhecido!')
-
+// 1 - For
+for(let i = 5; i >= 1 ; i--){
+    if( i % 2 !== 0){
+        console.log(i);
+    }
 };
-
