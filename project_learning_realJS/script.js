@@ -6,12 +6,19 @@
 // 4 - For..In
 // 5 - For..Of
 
-// 3 - Do..While
+// 4 - For..In
 
-let i = 0;
+const pessoa = {
+    nome: 'Yudelas',
+    idade: 20
+};
 
-do{
-    console.log('digitando!', i);
-    i++;
-    
-} while ( i < 10)
+for(let chave in pessoa){
+    console.log(chave, pessoa.nome, pessoa.idade);
+};
+
+const cores = ['Vermelho', 'Azul', 'Verde'];
+
+for (let indice in cores ){
+    console.log(indice, cores[indice])
+};
