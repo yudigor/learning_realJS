@@ -5,15 +5,18 @@
 
 //SEGUNDA E MELHOR SOLUÇÃO ACHADA PARA O PROBLEMA:
 
-verificarVelocidade( 136 );
+verificarVelocidade( 135 );
 
 function verificarVelocidade( velocidade ){
 
-    if( velocidade <= 70 ){
+    const velocidadeMaxima = 70;
+    const kmPorPonto = 5;
+
+    if( velocidade <= velocidadeMaxima ){
         console.log('Você está dentro dos limites de velocidade') 
     }
     else{
-         let pontos = Math.floor(( velocidade - 70)  / 5 );
+         let pontos = Math.floor(( velocidade - velocidadeMaxima)  / kmPorPonto );
          if ( pontos > 12 )
             console.log( 'Carteira Suspensa!') 
         else  
